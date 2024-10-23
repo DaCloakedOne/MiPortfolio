@@ -1178,12 +1178,18 @@ stats-item p {
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
+  display: flex;
+  max-width: 100%;
+  max-height: 700px;
+
+  }
+
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -1232,10 +1238,24 @@ stats-item p {
 }
 
 .portfolio-details .portfolio-description p {
+margin-bottom: 20px;
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
+.behance-embed {
+  display: flex;
+    justify-content: flex-end;   /* Aligns the content to the right */
+    margin-top: 20px;
+  float: right;           /* Aligns the Behance embed to the right side */
+   margin-top: 20px;       /* Adds space between the description and embed */
+   padding-left: 200px;
+  text-align: right; /* Right-align the Behance embed */
+  padding-top: 50px; /* Add padding to create space */
+}
 
+.behance-embed iframe {
+  max-width: 100%; /* Make the iframe responsive, optional */
+  height: 300px;
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
