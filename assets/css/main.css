@@ -748,6 +748,14 @@ stats-item p {
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+.half-width-left {
+  max-width: 50%;        /* Limits to half of the screen width */
+  text-align: left;      /* Ensures text aligns to the left */
+  margin-left: 0;        /* Aligns the container to the left */
+  padding-left: 0;       /* Removes any additional padding */
+}
+
+
 .resume .resume-title {
   color :#1e546e
   font-size: 26px;
