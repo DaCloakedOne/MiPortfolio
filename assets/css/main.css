@@ -862,6 +862,17 @@ stats-item p {
   }
 }
 
+.portfolio-link {
+  display: block; /* Makes the <a> tag act like a block element */
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Ensures text inside maintains its color */
+}
+
+.portfolio-link:hover {
+  cursor: pointer; /* Adds a pointer cursor on hover */
+  opacity: 0.9; /* Optional hover effect */
+}
+
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
